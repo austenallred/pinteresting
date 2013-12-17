@@ -12,6 +12,8 @@ gem 'sass-rails', '~> 4.0.0'
 
 gem 'aws-sdk', '~> 1.30.0'
 
+gem 'masonry-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
@@ -23,6 +25,7 @@ gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+gem 'jquery-turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -30,6 +33,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'bootstrap-sass', '~> 3.0.2.0'
 gem "devise", "~> 3.2.2"
 gem "paperclip", "~> 3.0"
+
 
 group :development, :test do
 	# sql - for heroku
