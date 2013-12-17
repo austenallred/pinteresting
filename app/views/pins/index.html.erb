@@ -17,7 +17,9 @@
       <tr>
         <td><%= image_tag pin.image.url(:medium) %></td>
         <td><%= pin.description %></td>  
+        <if @user.email?>
         <td><%= pin.user.email if @user.email? %></td>
+        <% end %>
         <td><%= link_to 'Show', pin %></td>
         <% if pin.user == current_user %>
         <td><%= link_to 'Edit', edit_pin_path(pin) %></td>
