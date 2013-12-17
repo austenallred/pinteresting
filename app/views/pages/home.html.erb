@@ -2,7 +2,8 @@
 	<h1>Welcome to Austen's app!</h1>
 	
 	<% if user_signed_in? %>
-		You're in the members' area
+		You're in the members' area. </br>
+		You might want to head to the <%= link_to "Pins", pins_path %>
 	<%else %>	
 	<p>
 		<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
