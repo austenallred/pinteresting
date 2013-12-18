@@ -1,3 +1,3 @@
-# One Month Rails
+#Austen's App
 
-This is the pinteresting sample application for One Month Rails
+Just learning how to use rails
